@@ -4,6 +4,9 @@ description: at, nam similique vitae delectus ad magni vel quo maxime, magnam
   placeat. Reprehenderit, distinctio aliquam?
 author: Kevin Powelerferfeferfe
 date: 2021-05-01
+tags:
+  - featured
+  - post
 image: /assets/blog/article-1.jpg
 imageAlt: This is a test
 ---
