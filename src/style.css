@@ -75,6 +75,8 @@ html:focus-within {
 /* Set core body defaults */
 body {
   min-height: 100vh;
+  display:flex;
+  flex-direction: column;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -226,6 +228,7 @@ section,
   /////////////////////// */
 
 .site-footer {
+  margin-top: auto;
   --logo-color: currentColor;
   padding: 2em 0;
   color: var(--clr-neutral-100);
@@ -335,7 +338,7 @@ section,
 @media (min-width: 45em) {
   .snippet {
     grid-template-areas:
-      "title image"
+      "title"
       "meta image"
       "body image"
       "button image";

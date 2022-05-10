@@ -1,0 +1,31 @@
+---
+title: "Article!"
+layout: "base.ejs"
+---
+
+<article class="main-article">
+<div class="container container--narrow flow">
+  
+    <h1 class="article-title">
+      <!--We aren't looping through collections here..
+      the data is being inserted into the page instead
+    so we can refer to it as just 'title' and etc.-->
+      <%= title %> 
+    </h1>
+    <figure class="main-article__figure">
+      <img src="<%= image %>" alt="<%=imageAlt%>">
+      <figcaption>
+        <%= imageAlt %> 
+      </figcaption>
+    </figure>
+    
+    <!--This is a different content that we are inserting!
+    base.njk one is different - its like nested html files
+  
+    in blog.json, we put "layout":"article.ejs"... so thats where the content is sent!
+    the almighty powerful blog.json!!
+  -->
+    <%- content %>
+
+</div>
+</article>
