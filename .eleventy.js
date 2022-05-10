@@ -3,6 +3,7 @@ module.exports = (eleventyConfig) => {
     //This pushes our CSS/assets to the public folder (not done by default in 11ty) 
     eleventyConfig.addPassthroughCopy("./src/style.css");
     eleventyConfig.addPassthroughCopy("./src/assets"); //takes everything in 'assets'
+    eleventyConfig.addPassthroughCopy("./src/admin")
 
     return{
         dir:{
