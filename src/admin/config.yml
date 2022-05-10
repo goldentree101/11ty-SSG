@@ -10,11 +10,11 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title", name: "title", width: "string" }
-      - { label: "Description", name: "description", width: "string" }
-      - { label: "Author", name: "author", width: "string" }
-      - { label: "Date", name: "date", width: "datetime" }
-      - { label: "Tags", name: "tags", width: "list", default: ["post"] }
-      - { label: "Featured Image", name: "image", width: "image" }
-      - { label: "Image Caption", name: "imageAlt", width: "string" }
-      - { label: "Body", name: "body", width: "markdown" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
