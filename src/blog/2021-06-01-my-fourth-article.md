@@ -6,6 +6,8 @@ description: Lorem ipsum dolor sit amet consectetur adipisicing elit.
   aliquam?
 author: Kevin Powell
 date: 2021-06-01
+tags:
+  - featured
 image: /assets/blog/stat.png
 imageAlt: This is a test
 ---
